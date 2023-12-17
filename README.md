@@ -3,10 +3,10 @@ Index for ABAP Repository
 
 zvks_main
 - zvks_utility: [utility](https://github.com/zvikesh/utility)
-- zvks-open-sql: [open-sql](https://github.com/zvikesh/open-sql)
-- zvks-rap
+- zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
+- zvks_rap
   - zvks_ddic
-  - zvks_rap_annotations_cheat_sheet
+  - N/A : [rap_annotations_cheat_sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
   - zvks_rap_flight-read-only
   - zvks_rap_travel-tp-***
 - zvks_ea
