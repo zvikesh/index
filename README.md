@@ -2,6 +2,7 @@
 Index for ABAP Repository
 
 zvks_main
+- N/A : [code-snippets](https://github.com/zvikesh/code-snippets)
 - zvks_utility: [utility](https://github.com/zvikesh/utility)
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
 - zvks_rap
