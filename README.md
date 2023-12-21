@@ -6,8 +6,8 @@ zvks_main
 - zvks_utility: [utility](https://github.com/zvikesh/utility)
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql) (_Check Readme.md for quick development guidelines_)
 - N/A: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
+- zvks_ddic : [ddic](https://github.com/zvikesh/ddic)
 - zvks_rap
-  - zvks_ddic
   - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
   - zvks_rap_flight-read-only
   - zvks_rap_travel-tp-***
