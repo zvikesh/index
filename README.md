@@ -5,6 +5,7 @@ zvks_main
 - N/A : [code-snippets](https://github.com/zvikesh/code-snippets)
 - zvks_utility: [utility](https://github.com/zvikesh/utility)
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
+- N/A: [abap-data-modelling-cheatsheet](https://github.com/zvikesh/abap-data-modelling-cheatsheet)
 - zvks_rap
   - zvks_ddic
   - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
