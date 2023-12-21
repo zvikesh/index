@@ -1,5 +1,5 @@
 # index
-Index for ABAP Repository
+Index to navigate through Github Repository
 
 zvks_main
 - N/A : [code-snippets](https://github.com/zvikesh/code-snippets)
