@@ -15,8 +15,7 @@ zvks_main
   - zvks_rap_flight_ro (TBD)
   - zvks_rap_travel_tp_man (TBD)
   - zvks_rap_travel_tp_unman (TBD)
-  - zvks_rap_travel_tp_unman (TBD)
-  - zvks_rap_unman_query (TBD)
+  - zvks_rap_***_unman_query (TBD)
   - zvks_rap_ext (TBD)
   - zvks_rap_***_hier (TBD)
 - zvks_ea
