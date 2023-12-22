@@ -11,6 +11,7 @@ zvks_main
   **Note**: First import DDIC repository and activate it, followed by any other dependent repository.
 - zvks_rap
   - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
+  - N/A : Naming Conventions (TBD)
   - zvks_rap_flight-read-only
   - zvks_rap_travel-tp-***
 - zvks_ea
