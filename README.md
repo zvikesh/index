@@ -6,10 +6,10 @@ zvks_main
 - N/A : [naming-conventions](https://github.com/zvikesh/naming-conventions/tree/main)
 - zvks_utility: [utility](https://github.com/zvikesh/utility)
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
-  **Note**: Check Readme.md for conclusive guideline
+  </br>**Note**: Check Readme.md for conclusive guideline
 - N/A: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
-- zvks_ddic : [ddic](https://github.com/zvikesh/ddic)</br>
-  **Note**: First import DDIC repository and activate it, activate Domains > Data Elements ? Structure > Table, then followed by any other dependent repository.
+- zvks_ddic : [ddic](https://github.com/zvikesh/ddic)
+  </br>**Note**: First import DDIC repository and activate it, activate Domains > Data Elements ? Structure > Table, then followed by any other dependent repository.
 - RAP Development
   - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
   - zvks_rap_flight_ro (TBD)
