@@ -8,7 +8,7 @@ zvks_main
   **Note**: Check Readme.md for conclusive guideline
 - N/A: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
 - zvks_ddic : [ddic](https://github.com/zvikesh/ddic)</br>
-  **Note**: First import DDIC repository and activate it, followed by any other dependent repository.
+  **Note**: First import DDIC repository and activate it, activate Domains > Data Elements ? Structure > Table, then followed by any other dependent repository.
 - RAP Development
   - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
   - N/A : Naming Conventions (TBD)
