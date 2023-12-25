@@ -7,7 +7,7 @@ zvks_main
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
   **Note**: Check Readme.md for conclusive guideline
 - N/A: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
-- zvks_ddic : [ddic](https://github.com/zvikesh/ddic)
+- zvks_ddic : [ddic](https://github.com/zvikesh/ddic)</br>
   **Note**: First import DDIC repository and activate it, followed by any other dependent repository.
 - RAP Development
   - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
