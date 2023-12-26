@@ -27,3 +27,9 @@ zvks_main
   - List Report
   - MDR/SBA
   - ALP
+
+RAP TP scripts
+- Check how frameworks handles the data validation for domain value and value table without value help.
+- How it handles after adding value help.
+- How to highlight the box for which the error occured during save sequence.
+- Try creating duplicate entries.
