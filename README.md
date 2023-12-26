@@ -33,3 +33,4 @@ RAP TP scripts
 - How it handles after adding value help.
 - How to highlight the box for which the error occured during save sequence.
 - Try creating duplicate entries.
+- Dynamic behaviour on clicking checkbox and entering field value.
