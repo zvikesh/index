@@ -29,6 +29,11 @@ zvks_main
   - ALP
 
 RAP TP scripts
+- Basic View to demonstrate most of semantic annotations usage.
+- 
+
+
+
 - Check how frameworks handles the data validation for domain value and value table without value help.
 - How it handles after adding value help.
 - How to highlight the box for which the error occured during save sequence.
