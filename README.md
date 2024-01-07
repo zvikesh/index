@@ -24,6 +24,8 @@ zvks_main
   - List Report
   - MDR/SBA
   - ALP
+- Troubleshooting
+  - N/A: troubleshooting_apps_and_api (TBD)
 
 RAP TP scripts
 - Basic View to demonstrate most of semantic annotations usage.
