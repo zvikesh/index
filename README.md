@@ -15,17 +15,22 @@ zvks_main
   - zvks_rap_***_unman_query (TBD)
   - zvks_rap_ext (TBD)
   - zvks_rap_***_hier (TBD)
-- zvks_ea
+- Embedded Analytics
   - ea-mdr
   - ea-alp
   - ea-sba
   - zvks_ea-value-help
-- zvks-fe-extension
+- Fiori Element Extension
   - List Report
   - MDR/SBA
   - ALP
-- Troubleshooting
+- Fiori Troubleshooting
   - N/A: troubleshooting_apps_and_api (TBD)
+- zvks_wf: Workflow
+  - zvks_class_wf (TBD)
+  - zvks_flex_wf: [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
+- zvks_evt_list_class Event Driven Architecture
+  - zvks_eda_list_class Event Listener Class  
 
 RAP TP scripts
 - Basic View to demonstrate most of semantic annotations usage.
