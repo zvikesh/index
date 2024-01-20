@@ -11,11 +11,11 @@ zvks_root
   - N/A: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
   - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
 - RAP Development
-  - zvks_rap_flight_ro (TBD)
-  - zvks_rap_travel_tp_man (TBD)
-  - zvks_rap_travel_tp_unman (TBD)
-  - zvks_rap_***_unman_query (TBD)
-  - zvks_rap_ext (TBD)
+  - zvks_rap_prd_ro (TBD)
+  - zvks_rap_po_tp_man (TBD)
+  - zvks_rap_po_tp_unm (TBD)
+  - zvks_rap_***_unm_qry (TBD)
+  - zvks_rap_po_ext (TBD)
   - zvks_rap_***_hier (TBD)
 - Embedded Analytics
   - ea-mdr
@@ -32,13 +32,16 @@ zvks_root
   - zvks_class_wf (TBD)
   - zvks_flex_wf: [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
 - zvks_evt_list_class Event Driven Architecture
-  - zvks_eda_list_class Event Listener Class  
+  - zvks_eda_list_class Event Listener Class
+- zvks_flight
+  - zvks_flight_ddic : [flight-ddic](?)
+  - zvks_flight_ro   : [flight-read-only](?)
+
+
 
 RAP TP scripts
 - Basic View to demonstrate most of semantic annotations usage.
-- 
 
-- zvks_ddic : [ddic](https://github.com/zvikesh/ddic)
   </br> **Note**: First import DDIC repository and activate it, activate Domains > Data Elements ? Structure > Table, then followed by any other dependent repository.
 - N/A : [code-snippets](https://github.com/zvikesh/code-snippets)
 
