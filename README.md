@@ -2,8 +2,9 @@
 Index to navigate through Github Repository
 
 zvks_root
+- N/A : [naming-conventions](https://github.com/zvikesh/naming-conventions)
+- zvks_utility: [utility](https://github.com/zvikesh/utility)
 - zvks_ddic: [data-dictionary](https://github.com/zvikesh/data-dictionary)
-- N/A : [naming-conventions](https://github.com/zvikesh/naming-conventions/tree/main)
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
   </br> **Note**: Check Readme.md for conclusive guideline
 - Annotations
@@ -40,7 +41,7 @@ RAP TP scripts
 - zvks_ddic : [ddic](https://github.com/zvikesh/ddic)
   </br> **Note**: First import DDIC repository and activate it, activate Domains > Data Elements ? Structure > Table, then followed by any other dependent repository.
 - N/A : [code-snippets](https://github.com/zvikesh/code-snippets)
-- zvks_utility: [utility](https://github.com/zvikesh/utility)
+
 
 - Check how frameworks handles the data validation for domain value and value table without value help.
 - How it handles after adding value help.
