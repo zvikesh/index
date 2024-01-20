@@ -35,7 +35,7 @@ zvks_root
   - zvks_eda_list_class Event Listener Class
 - zvks_flight
   - zvks_flight_ddic : [flight-ddic](https://github.com/zvikesh/flight-ddic)
-  - zvks_flight_ro   : [flight-read-only](?)
+  - zvks_flight_ro   : [flight-read-only](https://github.com/zvikesh/flight-read-only)
 
 
 
