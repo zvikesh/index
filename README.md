@@ -34,7 +34,7 @@ zvks_root
 - zvks_evt_list_class Event Driven Architecture
   - zvks_eda_list_class Event Listener Class
 - zvks_flight
-  - zvks_flight_ddic : [flight-ddic](?)
+  - zvks_flight_ddic : [flight-ddic](https://github.com/zvikesh/flight-ddic)
   - zvks_flight_ro   : [flight-read-only](?)
 
 
