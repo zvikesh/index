@@ -1,7 +1,8 @@
 # index
 Index to navigate through Github Repository
 
-zvks_main
+zvks_root
+- zvks_ddic: [data-dictionary](https://github.com/zvikesh/data-dictionary)
 - N/A : [naming-conventions](https://github.com/zvikesh/naming-conventions/tree/main)
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
   </br> **Note**: Check Readme.md for conclusive guideline
