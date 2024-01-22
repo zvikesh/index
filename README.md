@@ -1,19 +1,36 @@
 # index
 Index to navigate through Github Repository
 
+## Documentation
+
+ABAP Data Modelling
+- Naming Conventions : [naming-conventions](https://github.com/zvikesh/naming-conventions)
+
+OpenSQL
+- Definitive Guideline   </br> **Note**: Check Readme.md for conclusive guideline
+
+ABAP Annotations
+ - N/A: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
+ - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
+
+Fiori Troubleshooting
+- N/A: troubleshooting_apps_and_api (TBD)
+
+BRF+
+- Naming Conventions
+- Performance Guidelines
+
+
+## Coding Samples
+
 BTP Trial - Demo Package
 - /DMO/FLIGHT_SWC
 - /DMO/FEATURE_SHOWCASE_APP
 
 zvks_root: Root Package
-- N/A : [naming-conventions](https://github.com/zvikesh/naming-conventions)
 - zvks_utility: [utility](https://github.com/zvikesh/utility)
 - zvks_ddic: [data-dictionary](https://github.com/zvikesh/data-dictionary)
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
-  </br> **Note**: Check Readme.md for conclusive guideline
-- Annotations
-  - N/A: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
-  - N/A : [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
 - RAP Development
   - zvks_rap_prd_ro (TBD)
   - zvks_rap_po_tp_man (TBD)
@@ -30,8 +47,6 @@ zvks_root: Root Package
   - List Report
   - MDR/SBA
   - ALP
-- Fiori Troubleshooting
-  - N/A: troubleshooting_apps_and_api (TBD)
 - zvks_wf: Workflow
   - zvks_class_wf (TBD)
   - zvks_flex_wf: [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
@@ -40,8 +55,6 @@ zvks_root: Root Package
 - zvks_flight : Flight Scenario for Practise
   - zvks_flight_ddic : [flight-ddic](https://github.com/zvikesh/flight-ddic)
   - zvks_flight_ro   : [flight-read-only](https://github.com/zvikesh/flight-read-only)
-
-
 
 RAP TP scripts
 - Basic View to demonstrate most of semantic annotations usage.
