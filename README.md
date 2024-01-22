@@ -1,7 +1,7 @@
 # index
 Index to navigate through Github Repository
 
-Demo Package
+BTP Trial - Demo Package
 - /DMO/FLIGHT_SWC
 - /DMO/FEATURE_SHOWCASE_APP
 
