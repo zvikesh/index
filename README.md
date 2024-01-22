@@ -1,9 +1,6 @@
-# index
-Index to navigate through Github Repository
+# S/4 HANA ABAP
 
-## S/4 HANA ABAP
-
-### Documentation
+## Documentation
 
 **ABAP Data Modelling**
 
@@ -32,7 +29,7 @@ Index to navigate through Github Repository
 - Enhancing through Application Exit
 
 
-### Coding Samples
+## Coding Samples
 
 BTP Trial - Demo Package
 - /DMO/FLIGHT_SWC
