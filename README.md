@@ -5,23 +5,28 @@ Index to navigate through Github Repository
 
 ### Documentation
 
-ABAP Data Modelling
+**ABAP Data Modelling**
+
 - Naming Conventions : [naming-conventions](https://github.com/zvikesh/naming-conventions)
 - Modelling Guidelines: [VDM Data Modelling](https://app.excalidraw.com/l/5eMbpiBu0l3/5sRgLPpDEZj)
 - Modelling Annotations Cheatsheet: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
 - RAP Annotations Cheatsheet: [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
  
-OpenSQL 7.4+
+**OpenSQL 7.4+**
+
 - Definitive Guideline   </br> **Note**: Check Readme.md for conclusive guideline
 
-Fiori Content Management
+**Fiori Content Management**
+
 - Naming Convention:
 - Development Guidelines:
 
-Fiori Troubleshooting
+**Fiori Troubleshooting**
+
 - N/A: troubleshooting_apps_and_api (TBD)
 
-BRF+
+**BRF+**
+
 - Naming Conventions
 - Performance Guidelines
 
