@@ -14,8 +14,6 @@ ABAP Data Modelling
 OpenSQL 7.4+
 - Definitive Guideline   </br> **Note**: Check Readme.md for conclusive guideline
 
-ABAP Annotations
-
 Fiori Troubleshooting
 - N/A: troubleshooting_apps_and_api (TBD)
 
