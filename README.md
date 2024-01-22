@@ -29,6 +29,7 @@ Index to navigate through Github Repository
 
 - Naming Conventions
 - Performance Guidelines
+- Enhancing through Application Exit
 
 
 ### Coding Samples
