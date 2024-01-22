@@ -8,7 +8,7 @@ Index to navigate through Github Repository
 **ABAP Data Modelling**
 
 - Naming Conventions : [naming-conventions](https://github.com/zvikesh/naming-conventions)
-- Modelling Guidelines: [VDM Data Modelling](https://app.excalidraw.com/l/5eMbpiBu0l3/5sRgLPpDEZj)
+- Modelling Cheatsheet: [VDM Data Modelling](https://app.excalidraw.com/l/5eMbpiBu0l3/5sRgLPpDEZj)
 - Modelling Annotations Cheatsheet: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
 - RAP Annotations Cheatsheet: [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
  
