@@ -1,7 +1,11 @@
 # index
 Index to navigate through Github Repository
 
-zvks_root
+Demo Package
+- /DMO/FLIGHT_SWC
+- /DMO/FEATURE_SHOWCASE_APP
+
+zvks_root: Root Package
 - N/A : [naming-conventions](https://github.com/zvikesh/naming-conventions)
 - zvks_utility: [utility](https://github.com/zvikesh/utility)
 - zvks_ddic: [data-dictionary](https://github.com/zvikesh/data-dictionary)
