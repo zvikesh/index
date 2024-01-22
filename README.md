@@ -14,6 +14,10 @@ ABAP Data Modelling
 OpenSQL 7.4+
 - Definitive Guideline   </br> **Note**: Check Readme.md for conclusive guideline
 
+Fiori Content Management
+- Naming Convention:
+- Development Guidelines:
+
 Fiori Troubleshooting
 - N/A: troubleshooting_apps_and_api (TBD)
 
