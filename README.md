@@ -37,7 +37,7 @@ zvks_root: Root Package
   - zvks_flex_wf: [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
 - zvks_evt_list_class Event Driven Architecture
   - zvks_eda_list_class Event Listener Class
-- zvks_flight
+- zvks_flight : Flight Scenario for Practise
   - zvks_flight_ddic : [flight-ddic](https://github.com/zvikesh/flight-ddic)
   - zvks_flight_ro   : [flight-read-only](https://github.com/zvikesh/flight-read-only)
 
