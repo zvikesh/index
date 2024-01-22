@@ -55,9 +55,11 @@ zvks_root: Root Package
   - List Report
   - MDR/SBA
   - ALP
-- zvks_wf: Workflow
-  - zvks_class_wf (TBD)
-  - zvks_flex_wf: [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
+- zvks_fwf: Flexible Workflow [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
+  - zvks_cust_fwf_cust_evt: custom-flex-wf-for-custom-event
+  - zvks_cust_fwf_std_evt: custom-flex-wf-for-standard-event
+  - zvks_std_so_fwf: standard-sales-order-flex-wf
+  - zvks_ext_std_so_fwf: extending-standard-sales-order-flex-wf
 - zvks_evt_list_class Event Driven Architecture
   - zvks_eda_list_class Event Listener Class
 - zvks_flight : Flight Scenario for Practise
