@@ -1,6 +1,11 @@
 # S/4 HANA ABAP
 
-## Documentation
+## Best Practices and Development Guidelines
+
+**ADT**
+
+- Generic Tips and Tricks: [Official Guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/tips-and-tricks-abap-core-tools?version=sap_btp)
+- CDS 
 
 **ABAP Data Modelling**
 
@@ -78,3 +83,9 @@ RAP TP scripts
 - How to highlight the box for which the error occured during save sequence.
 - Try creating duplicate entries.
 - Dynamic behaviour on clicking checkbox and entering field value.
+
+# BTP
+
+Official Guide </br>
+
+https://help.sap.com/docs/btp/best-practices/best-practices-for-sap-btp
