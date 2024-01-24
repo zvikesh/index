@@ -33,6 +33,8 @@
 - Performance Guidelines
 - Enhancing through Application Exit
 
+**Flexible Worfklow**
+- Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes
 
 ## Coding Samples
 
