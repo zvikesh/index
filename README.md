@@ -1,4 +1,4 @@
-# S/4 HANA ABAP
+# S/4 HANA
 
 ## Best Practices and Development Guidelines
 
