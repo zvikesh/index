@@ -6,10 +6,15 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 
 **ADT**
 
-- Generic Tips and Tricks: [ABAP Core Tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/tips-and-tricks-abap-core-tools?version=sap_btp)
-- CDS: [ABAP CDS Tools](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/tips-and-tricks-abap-cds-tools)
-- Code Profiling
-- ABAP Tracing and SQL Monitor
+- ADT Tips and Tricks
+  - [Core Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/tips-and-tricks-abap-core-tools?version=sap_btp)
+  - [CDS Development](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/tips-and-tricks-abap-cds-tools)
+- Best Practices (TBD: Add from Notes like: Use Released APIs, KTD etc.)
+- Performance Optimization
+  - Code Profiling
+  - ABAP Tracing and SQL Monitor
+- Troubleshooting
+  - Debugger Tips and Tricks (TBD Check Notes) 
 
 **ABAP Data Modelling**
 
