@@ -8,6 +8,8 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 
 - Generic Tips and Tricks: [ABAP Core Tools](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/tips-and-tricks-abap-core-tools?version=sap_btp)
 - CDS: [ABAP CDS Tools](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/tips-and-tricks-abap-cds-tools)
+- Code Profiling
+- ABAP Tracing and SQL Monitor
 
 **ABAP Data Modelling**
 
