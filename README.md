@@ -1,6 +1,6 @@
 # S/4 HANA
 
-## Best Practices and Development Guidelines
+## Developers User Guide (Naming Conventions, Best Practices, Troubleshooting and Performance Optimization)
 
 **ADT**
 
