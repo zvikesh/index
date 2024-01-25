@@ -43,7 +43,7 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 - Enhancing through Application Exit
 
 **Flexible Worfklow**
-- Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes | SAP Press Worfklow Page 501
+- Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes | SAP Press Worfklow Page 501 | SWI5 How to Find the Workitem that is pending in a User SAP Inbox
 
 ## Coding Samples
 
