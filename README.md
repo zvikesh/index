@@ -102,3 +102,6 @@ RAP TP scripts
 Official Guide </br>
 
 https://help.sap.com/docs/btp/best-practices/best-practices-for-sap-btp
+
+# MDG
+
