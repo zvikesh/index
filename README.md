@@ -76,11 +76,19 @@ zvks_root: Root Package
   - zvks_cust_fwf_std_evt: custom-flex-wf-for-standard-event
   - zvks_std_so_fwf: standard-sales-order-flex-wf
   - zvks_ext_std_so_fwf: extending-standard-sales-order-flex-wf
-- zvks_evt_list_class Event Driven Architecture
-  - zvks_eda_list_class Event Listener Class
 - zvks_flight : Flight Scenario for Practise
   - zvks_flight_ddic : [flight-ddic](https://github.com/zvikesh/flight-ddic)
   - zvks_flight_ro   : [flight-read-only](https://github.com/zvikesh/flight-read-only)
+
+**SWE2/SWETYPV Event Listeners**
+- zvks_swe2_evt_handler:  (TBD) swe2-evt-handler
+- Event Handling Method zcl_mdm_prd_events_handler
+- Event Handling Class
+- Check Function Module (SAP Press) and other options.
+
+- zvks_evt_list_class Event Driven Architecture
+  - zvks_eda_list_class Event Listener Class
+
 
 RAP TP scripts
 - Basic View to demonstrate most of semantic annotations usage.
