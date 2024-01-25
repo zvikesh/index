@@ -80,14 +80,8 @@ zvks_root: Root Package
   - zvks_flight_ddic : [flight-ddic](https://github.com/zvikesh/flight-ddic)
   - zvks_flight_ro   : [flight-read-only](https://github.com/zvikesh/flight-read-only)
 
-**SWE2/SWETYPV Event Listeners**
-- zvks_swe2_evt_handler:  (TBD) swe2-evt-handler
-- Event Handling Method zcl_mdm_prd_events_handler
-- Event Handling Class
-- Check Function Module (SAP Press) and other options.
-
-- zvks_evt_list_class Event Driven Architecture
-  - zvks_eda_list_class Event Listener Class
+**SWE2/SWETYPV Event Handling**
+- [swe2-evt-handling](https://github.com/zvikesh/swe2-evt-handling/)
 
 
 RAP TP scripts
