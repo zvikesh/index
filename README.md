@@ -47,7 +47,7 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 
 ## Development Coding Samples
 
-**Auxiliary ABAP Package**
+**Auxiliary ABAP Packages**
 
 - BTP Trial - Demo Package
   - /DMO/FLIGHT_SWC
