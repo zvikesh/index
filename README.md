@@ -48,19 +48,15 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 ## Development Coding Samples
 
 **Set Up**
-
-BTP Trial - Demo Package
-- /DMO/FLIGHT_SWC
-- /DMO/FEATURE_SHOWCASE_APP
-
-Root Package
-- zvks_root
-
-Utility Objects
-- zvks_utility: [utility](https://github.com/zvikesh/utility)
-
-DDIC Artifacts
-- zvks_ddic: [data-dictionary](https://github.com/zvikesh/data-dictionary)
+- BTP Trial - Demo Package
+  - /DMO/FLIGHT_SWC
+  - /DMO/FEATURE_SHOWCASE_APP
+- Root Package
+  - zvks_root
+- Utility Objects
+  - zvks_utility: [utility](https://github.com/zvikesh/utility)
+- DDIC Artifacts
+  - zvks_ddic: [data-dictionary](https://github.com/zvikesh/data-dictionary)
 
 **Open SQL**
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
