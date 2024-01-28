@@ -45,40 +45,59 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 **Flexible Worfklow**
 - Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes | SAP Press Worfklow Page 501 | SWI5 How to Find the Workitem that is pending in a User SAP Inbox
 
-## Coding Samples
+## Development Coding Samples
 
-BTP Trial - Demo Package
+**BTP Trial - Demo Package**
 - /DMO/FLIGHT_SWC
 - /DMO/FEATURE_SHOWCASE_APP
 
-zvks_root: Root Package
+**Root Package**
+- zvks_root
+
+**Utility Objects**
 - zvks_utility: [utility](https://github.com/zvikesh/utility)
+
+**DDIC Artifacts**
 - zvks_ddic: [data-dictionary](https://github.com/zvikesh/data-dictionary)
+
+**Open SQL**
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
-- RAP Development
-  - zvks_rap_prd_ro (TBD)
-  - zvks_rap_po_tp_man (TBD)
-  - zvks_rap_po_tp_unm (TBD)
-  - zvks_rap_***_unm_qry (TBD)
-  - zvks_rap_po_ext (TBD)
-  - zvks_rap_***_hier (TBD)
-- Embedded Analytics
-  - ea-mdr
-  - ea-alp
-  - ea-sba
-  - zvks_ea-value-help
-- Fiori Element Extension
-  - List Report
-  - MDR/SBA
-  - ALP
-- zvks_fwf: Flexible Workflow [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
+
+**Fiori Elements - Read Only List Report**
+- zvks_flight_ro zvks_fe_flight_ro: [flight-read-only](https://github.com/zvikesh/flight-read-only)
+
+**Fiori Elements - Read Only List Report (BAPI)**
+- zvks_fe_flight_ro_bapi
+
+**Fiori Elements - Transactional List Report (Managed)**
+- zvks_fe_flight_tp_man
+
+**Fiori Elements - Transactional List Report (Managed with Unmanaged Save)**
+- zvks_fe_flight_tp_unm
+
+**Fiori Elements - Transactional List Report (Unmanaged)**
+
+**Fiori Elements - Transactional List Report (Unmanaged with Query)**
+
+**Fiori Elements - Heirarichal List Report**
+
+**Fiori Elements - Overview Page Report**
+
+**Fiori Elements - Analytical List Page Report**
+
+**Embedded Analytics - Multi Dimensional Report**
+
+**Embedded Analytics - Smart Business Report with KPI**
+
+**Custom Flexible Workflow**
+- zvks_fwf_prd_crt: flex-workflow-product-creation [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
+
   - zvks_cust_fwf_cust_evt: custom-flex-wf-for-custom-event
   - zvks_cust_fwf_std_evt: custom-flex-wf-for-standard-event
   - zvks_std_so_fwf: standard-sales-order-flex-wf
   - zvks_ext_std_so_fwf: extending-standard-sales-order-flex-wf
 - zvks_flight : Flight Scenario for Practise
   - zvks_flight_ddic : [flight-ddic](https://github.com/zvikesh/flight-ddic)
-  - zvks_flight_ro   : [flight-read-only](https://github.com/zvikesh/flight-read-only)
 
 **SWE2/SWETYPV Event Handling**
 - [swe2-evt-handling](https://github.com/zvikesh/swe2-evt-handling/)
@@ -96,6 +115,8 @@ RAP TP scripts
 - How to highlight the box for which the error occured during save sequence.
 - Try creating duplicate entries.
 - Dynamic behaviour on clicking checkbox and entering field value.
+
+## Extension Coding Samples
 
 # BTP
 
