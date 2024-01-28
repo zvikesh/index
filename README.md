@@ -47,7 +47,8 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 
 ## Development Coding Samples
 
-**Set Up**
+**Auxiliary ABAP Package**
+
 - BTP Trial - Demo Package
   - /DMO/FLIGHT_SWC
   - /DMO/FEATURE_SHOWCASE_APP
@@ -59,33 +60,31 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
   - zvks_ddic: [data-dictionary](https://github.com/zvikesh/data-dictionary)
 
 **Open SQL**
+
 - zvks_open_sql: [open-sql](https://github.com/zvikesh/open-sql)
 
-**Fiori Elements - Read Only List Report**
-- zvks_flight_ro zvks_fe_flight_ro: [flight-read-only](https://github.com/zvikesh/flight-read-only)
+**Fiori Elements**
 
-**Fiori Elements - Read Only List Report (BAPI)**
-- zvks_fe_flight_ro_bapi
+- Read Only List Report
+  - zvks_flight_ro zvks_fe_flight_ro: [flight-read-only](https://github.com/zvikesh/flight-read-only)
+- Read Only List Report (BAPI)
+  - zvks_fe_flight_ro_bapi
+- Transactional List Report (Managed)
+  - zvks_fe_flight_tp_man
+- Transactional List Report (Managed with Unmanaged Save)
+  - zvks_fe_flight_tp_unm
+- Transactional List Report (Unmanaged)
+- Transactional List Report (Unmanaged with Query)**
+- Heirarichal List Report**
+- Overview Page Report**
+- Analytical List Page Report**
 
-**Fiori Elements - Transactional List Report (Managed)**
-- zvks_fe_flight_tp_man
+**Embedded Analytics**
 
-**Fiori Elements - Transactional List Report (Managed with Unmanaged Save)**
-- zvks_fe_flight_tp_unm
+- Multi Dimensional Report**
+- Smart Business Report with KPI**
 
-**Fiori Elements - Transactional List Report (Unmanaged)**
-
-**Fiori Elements - Transactional List Report (Unmanaged with Query)**
-
-**Fiori Elements - Heirarichal List Report**
-
-**Fiori Elements - Overview Page Report**
-
-**Fiori Elements - Analytical List Page Report**
-
-**Embedded Analytics - Multi Dimensional Report**
-
-**Embedded Analytics - Smart Business Report with KPI**
+**SAP UI5**
 
 **Custom Flexible Workflow**
 - zvks_fwf_prd_crt: flex-workflow-product-creation [flexible-workflow](https://github.com/zvikesh/flexible-workflow/tree/main)
@@ -106,7 +105,6 @@ RAP TP scripts
 
   </br> **Note**: First import DDIC repository and activate it, activate Domains > Data Elements ? Structure > Table, then followed by any other dependent repository.
 - N/A : [code-snippets](https://github.com/zvikesh/code-snippets)
-
 
 - Check how frameworks handles the data validation for domain value and value table without value help.
 - How it handles after adding value help.
