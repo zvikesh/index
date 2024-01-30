@@ -45,7 +45,7 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 **Flexible Worfklow**
 - Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes | SAP Press Worfklow Page 501 | SWI5 How to Find the Workitem that is pending in a User SAP Inbox
 
-## Development Coding Samples
+## Coding Samples
 
 **Auxiliary ABAP Packages**
 
@@ -98,7 +98,6 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 
 **SWE2/SWETYPV Event Handling**
 - [swe2-evt-handling](https://github.com/zvikesh/swe2-evt-handling/)
-
 
 RAP TP scripts
 - Basic View to demonstrate most of semantic annotations usage.
