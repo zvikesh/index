@@ -22,19 +22,24 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 
 **Extension Contracts**
 
-Objects in Scope
-- Authorization Fields, Authorization Objects, BAdI Definitions, Behavior Definitions, CDS Entities, Classes, Data Elements, Domains, Function Modules, Interfaces, Message 
-  Classes, Search Helps, Structures, Table Types, Type Groups, Transformations etc.
-
 Key User Tools
 - Custom Fields, Custom Logic, Custom CDS, Custom Analytical Queries etc.
 
-Contract for
-- Extensions (**C0**) + Key User Extensibility = Can be extend using Key User tools.
-- Extensions (**C0**) + Developer Extensibility (Cloud Development) = Can be extended using ADT.
-- System-internal use (**C1**) + Key User Extensibility = Can be consumed by custom solution built using Key User tools.
-- System-internal use (**C1**) + Developer Extensibility (Cloud Development) = Can be consumed by custom solution built using ADT.
-- Remote API use (**C2**) = For SAP's internal use, not for customers and partners.
+- Extensions (**C0**) [Objects in Scope](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/2ce344a782d74d8aab073fa188af5116.html)
+  - Key User Extensibility: Can be extend using Key User tools. 
+  - Developer Extensibility (Cloud Development): Can be extended using ADT. 
+
+- System-Internal Use (**C1**) [Objects in Scope](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/3ccb57a1a4d04ee192fdc2a849a89158.html)
+  - Key User Extensibility: Can be consumed by custom solution built using Key User tools.
+  - Developer Extensibility (Cloud Development): Can be consumed by custom solution built using ADT.
+
+- Remote API Use (**C2**) (Object in Scope: CDS Entities & Service Bindings)
+  - Can be used as Remote API, upgrade modification will not break the existing conumption as an API.
+
+- Manage Configuration Content (**C3**) (Object in Scope: Database Tables)
+  - Optional non-key fields might be added later, but existing fields must not be changed or even removed. 
+  - Alphanumeric fields might be elongated but will never be shortened.
+
 - Impementation using ATC variant:
   - **ABAP_CLOUD_READINESS**: Custom code created with classic extensibility (language version Standard ABAP) uses any CDS views that don't have the status released.
   - With each software upgrade, you will automatically receive syntax warnings of occurrecnes of deprecated CDS views or deprecated CDS view elements in the custom content 
