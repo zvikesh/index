@@ -25,25 +25,29 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 Key User Tools
 - Custom Fields, Custom Logic, Custom CDS, Custom Analytical Queries etc.
 
-- Extensions (**C0**) [Objects in Scope](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/2ce344a782d74d8aab073fa188af5116.html)
+- Extensions (**C0**) [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/2ce344a782d74d8aab073fa188af5116.html)
   - Key User Extensibility: Can be extend using Key User tools. 
   - Developer Extensibility (Cloud Development): Can be extended using ADT. 
 
-- System-Internal Use (**C1**) [Objects in Scope](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/3ccb57a1a4d04ee192fdc2a849a89158.html)
+- System-Internal Use (**C1**) [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/3ccb57a1a4d04ee192fdc2a849a89158.html)
   - Key User Extensibility: Can be consumed by custom solution built using Key User tools.
   - Developer Extensibility (Cloud Development): Can be consumed by custom solution built using ADT.
+  - **Deprecated**: Objects with C1 contract can be [deprecated](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/f64ebfd241fe4b40b5902b8630d26db6.html) by a successor object. Customer should adapt by marking existing [custom object as deprecated](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a0b0c2282d49442dad541468f68f14e6.html) and replacing it with custom successor object. 
 
-- Remote API Use (**C2**) (Object in Scope: CDS Entities & Service Bindings)
+- Remote API Use (**C2**) [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/9c7f9ba825064053874d5870bcb991fb.html)
   - Can be used as Remote API, upgrade modification will not break the existing conumption as an API.
 
-- Manage Configuration Content (**C3**) (Object in Scope: Database Tables)
+- Manage Configuration Content (**C3**) [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/8b734a3c1f2f416fb077675df46037b5.html)
   - Optional non-key fields might be added later, but existing fields must not be changed or even removed. 
   - Alphanumeric fields might be elongated but will never be shortened.
 
+- AMDP (**C4**) [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/288854b83f764fc2b7ae8c5f62140cfe.html)
+  - Same as C1 can be consumed by custom solution but unlike C1 no deprecation will be done.
+
 - Impementation using ATC variant:
   - **ABAP_CLOUD_READINESS**: Custom code created with classic extensibility (language version Standard ABAP) uses any CDS views that don't have the status released.
-  - With each software upgrade, you will automatically receive syntax warnings of occurrecnes of deprecated CDS views or deprecated CDS view elements in the custom content 
-    that you created with developer extensibility. This prompts you to rework your content accordingly.
+  - _With each software upgrade, you will automatically receive syntax warnings of occurrecnes of deprecated CDS views or deprecated CDS view elements in the custom content 
+    that you created with developer extensibility. This prompts you to rework your content accordingly._
 
 **ABAP Data Modelling**
 
