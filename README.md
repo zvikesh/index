@@ -22,8 +22,14 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 
 **Extension Contracts**
 
-Objects in Scope: Authorization Fields, Authorization Objects, BAdI Definitions, Behavior Definitions, CDS Entities, Classes, Data Elements, Domains, Function Modules, Interfaces, Message Classes, Search Helps, Structures, Table Types, Type Groups, Transformations etc.
-Key User Tools: Custom Fields, Custom Logic, Custom CDS, Custom Analytical Queries etc.
+Objects in Scope
+- Authorization Fields, Authorization Objects, BAdI Definitions, Behavior Definitions, CDS Entities, Classes, Data Elements, Domains, Function Modules, Interfaces, Message 
+  Classes, Search Helps, Structures, Table Types, Type Groups, Transformations etc.
+
+Key User Tools
+- Custom Fields, Custom Logic, Custom CDS, Custom Analytical Queries etc.
+
+Contract for
 - Extensions (**C0**) + Key User Extensibility = Can be extend using Key User tools.
 - Extensions (**C0**) + Developer Extensibility (Cloud Development) = Can be extended using ADT.
 - System-internal use (**C1**) + Key User Extensibility = Can be consumed by custom solution built using Key User tools.
