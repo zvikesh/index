@@ -42,7 +42,7 @@ Key User Tools
   - Alphanumeric fields might be elongated but will never be shortened.
 
 - AMDP (**C4**) [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/288854b83f764fc2b7ae8c5f62140cfe.html)
-  - Same as C1 can be consumed by custom solution but unlike C1 no deprecation will be done.
+  - Same as C1, AMDP method can be consumed by custom solution but unlike C1 no deprecation or modification will be done.
 
 - Impementation using ATC variant:
   - **ABAP_CLOUD_READINESS**: Custom code created with classic extensibility (language version Standard ABAP) uses any CDS views that don't have the status released.
