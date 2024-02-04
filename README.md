@@ -9,12 +9,30 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 - ADT Tips and Tricks
   - [Core Development](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/tips-and-tricks-abap-core-tools?version=sap_btp)
   - [CDS Development](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/tips-and-tricks-abap-cds-tools)
-- Best Practices (TBD: Add from Notes like: Use Released APIs, KTD etc.)
+
+
+
 - Performance Optimization
   - Code Profiling
   - ABAP Tracing and SQL Monitor
 - Troubleshooting
   - Debugger Tips and Tricks (TBD Check Notes) 
+- Best Practices (TBD: Add from Notes like: Use Released APIs, KTD etc. and below extension contracts)
+- Best Practices (TBD: Add from Notes)
+
+**Extension Contracts**
+
+Objects in Scope: Authorization Fields, Authorization Objects, BAdI Definitions, Behavior Definitions, CDS Entities, Classes, Data Elements, Domains, Function Modules, Interfaces, Message Classes, Search Helps, Structures, Table Types, Type Groups, Transformations etc.
+Key User Tools: Custom Fields, Custom Logic, Custom CDS, Custom Analytical Queries etc.
+- Extensions (**C0**) + Key User Extensibility = Can be extend using Key User tools.
+- Extensions (**C0**) + Developer Extensibility (Cloud Development) = Can be extended using ADT.
+- System-internal use (**C1**) + Key User Extensibility = Can be consumed by custom solution built using Key User tools.
+- System-internal use (**C1**) + Developer Extensibility (Cloud Development) = Can be consumed by custom solution built using ADT.
+- Remote API use (**C2**) = For SAP's internal use, not for customers and partners.
+- Impementation using ATC variant:
+  - **ABAP_CLOUD_READINESS**: Custom code created with classic extensibility (language version Standard ABAP) uses any CDS views that don't have the status released.
+  - With each software upgrade, you will automatically receive syntax warnings of occurrecnes of deprecated CDS views or deprecated CDS view elements in the custom content 
+    that you created with developer extensibility. This prompts you to rework your content accordingly.
 
 **ABAP Data Modelling**
 
