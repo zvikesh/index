@@ -46,8 +46,8 @@ Key User Tools
 
 - Impementation using ATC variant:
   - **ABAP_CLOUD_READINESS**: Custom code created with classic extensibility (language version Standard ABAP) uses any CDS views that don't have the status released.
-  - _With each software upgrade, you will automatically receive syntax warnings of occurrecnes of deprecated CDS views or deprecated CDS view elements in the custom content 
-    that you created with developer extensibility. This prompts you to rework your content accordingly._
+  - _With each software upgrade, customer will automatically receive syntax warnings of occurrences of deprecated CDS views or deprecated CDS view elements in the custom 
+    content that was created with developer extensibility. This prompts customer to rework their content accordingly._
 
 **ABAP Data Modelling**
 
