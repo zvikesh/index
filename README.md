@@ -34,7 +34,8 @@ System-Internal Use (**C1**)
 - [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/3ccb57a1a4d04ee192fdc2a849a89158.html)
 - Key User Extensibility: Can be consumed by custom solution built using Key User tools.
 - Developer Extensibility (Cloud Development): Can be consumed by custom solution built using ADT.
-- **Deprecated**: Objects with C1 contract can be [deprecated](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/f64ebfd241fe4b40b5902b8630d26db6.html) by a successor object. Customer should adapt by marking existing [custom object as deprecated](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a0b0c2282d49442dad541468f68f14e6.html) and replacing it with custom successor object. 
+- **Deprecated**: Objects with C1 contract can be [deprecated](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/f64ebfd241fe4b40b5902b8630d26db6.html) by a successor object. Customer should adapt by marking existing [custom object as deprecated](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a0b0c2282d49442dad541468f68f14e6.html) and replacing it with custom successor object.
+-**Decommissioned**: After 12+ months of deprecation, object will be decommissioned and can no longer be used in production.  
 
 Remote API Use (**C2**) 
 - [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/9c7f9ba825064053874d5870bcb991fb.html)
