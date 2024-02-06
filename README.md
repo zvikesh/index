@@ -1,6 +1,6 @@
 # S/4 HANA
 
-## Developers User Guide
+## Side by Side Extension Guidelines
 
 Naming Conventions, Best Practices, Troubleshooting and Performance Optimization etc.
 
@@ -16,6 +16,37 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
   - Debugger Tips and Tricks (TBD Check Notes) 
 - Best Practices (TBD: Add from Notes like: Use Released APIs, KTD etc. and below extension contracts)
 - Best Practices (TBD: Add from Notes)
+
+### ABAP Data Modelling
+
+- Naming Conventions : [naming-conventions](https://github.com/zvikesh/naming-conventions)
+- Modelling Cheatsheet: [VDM Data Modelling](https://app.excalidraw.com/l/5eMbpiBu0l3/5sRgLPpDEZj)
+- Modelling Annotations Cheatsheet: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
+- RAP Annotations Cheatsheet: [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
+ 
+### OpenSQL 7.4+
+
+- Definitive Guideline   </br> **Note**: Check Readme.md for conclusive guideline
+
+### Fiori Content Management
+
+- Naming Convention:
+- Development Guidelines:
+
+### Fiori Troubleshooting
+
+- N/A: troubleshooting_apps_and_api (TBD)
+
+### BRF+
+
+- Naming Conventions
+- Performance Guidelines
+- Enhancing through Application Exit
+
+### Flexible Worfklow
+- Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes | SAP Press Worfklow Page 501 | SWI5 How to Find the Workitem that is pending in a User SAP Inbox
+
+## Devlelopers Extension
 
 ### Extension Contracts
 
@@ -52,34 +83,7 @@ Impementation using ATC variant:
 - _With each software upgrade, customer will automatically receive syntax warnings of occurrences of deprecated CDS views or deprecated CDS view elements in the custom 
   content that was created with developer extensibility. This prompts customer to rework their content accordingly._
 
-### ABAP Data Modelling
-
-- Naming Conventions : [naming-conventions](https://github.com/zvikesh/naming-conventions)
-- Modelling Cheatsheet: [VDM Data Modelling](https://app.excalidraw.com/l/5eMbpiBu0l3/5sRgLPpDEZj)
-- Modelling Annotations Cheatsheet: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
-- RAP Annotations Cheatsheet: [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
- 
-### OpenSQL 7.4+
-
-- Definitive Guideline   </br> **Note**: Check Readme.md for conclusive guideline
-
-### Fiori Content Management
-
-- Naming Convention:
-- Development Guidelines:
-
-### Fiori Troubleshooting
-
-- N/A: troubleshooting_apps_and_api (TBD)
-
-### BRF+
-
-- Naming Conventions
-- Performance Guidelines
-- Enhancing through Application Exit
-
-### Flexible Worfklow
-- Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes | SAP Press Worfklow Page 501 | SWI5 How to Find the Workitem that is pending in a User SAP Inbox
+## Key Users Extension
 
 ## Coding Samples
 
