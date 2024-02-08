@@ -17,24 +17,24 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 - Best Practices (TBD: Add from Notes like: Use Released APIs, KTD etc. and below extension contracts)
 - Best Practices (TBD: Add from Notes)
 
-### ABAP Data Modelling
+### ABAP Data Modelling and Annotations
 
+- abap-data-modelling-and-annotations (merge all into this new repository)
 - Naming Conventions : [naming-conventions](https://github.com/zvikesh/naming-conventions)
 - Modelling Cheatsheet: [VDM Data Modelling](https://app.excalidraw.com/l/5eMbpiBu0l3/5sRgLPpDEZj)
 - Modelling Annotations Cheatsheet: [abap-data-modelling-vdm](https://github.com/zvikesh/abap-data-modelling-vdm)
 - RAP Annotations Cheatsheet: [rap-annotations-cheat-sheet](https://github.com/zvikesh/rap-annotations-cheat-sheet)
  
-### OpenSQL 7.4+
+### S4 HANA ABAP Programming
 
-- Definitive Guideline   </br> **Note**: Check Readme.md for conclusive guideline
+- OpenSQL 7.4+ Conclusive Guideline: </br> **Note**: Check Readme.md for conclusive guideline
+- Object Orient Parallel ABAP: [oo-parallel-abap](https://github.com/zvikesh/oo-parallel-abap)
 
-### Fiori Content Management
+### Fiori 
 
-- Naming Convention:
-- Development Guidelines:
-
-### Fiori Troubleshooting
-
+- Fiori Content Management: (Page1: Naming Convention:)
+- Fiori Elements App Dev Guidelines: (TBD)
+- SAP UI5 App Dev Guidelines: (TBD)
 - N/A: troubleshooting_apps_and_api (TBD)
 
 ### BRF+
@@ -44,6 +44,7 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 - Enhancing through Application Exit
 
 ### Flexible Worfklow
+
 - Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes | SAP Press Worfklow Page 501 | SWI5 How to Find the Workitem that is pending in a User SAP Inbox
 
 ## Devlelopers Extension
