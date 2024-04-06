@@ -2,6 +2,9 @@
 
 ![image](https://github.com/zvikesh/index/assets/108741639/064f417e-80e9-4564-a9b3-9b2269d7a48b)
 
+# ZVKS_DDIC_REUSE
+<<>>
+
 # Sample RAP Applications
 
 |Title|Repostiry URL|
