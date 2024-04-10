@@ -10,6 +10,7 @@
 |Title|Repostiry URL|
 |:---|:---|
 |Flight Read Only|https://github.com/zvikesh/flight-read-only|
+|Travel Managed|https://github.com/zvikesh/travel-managed|
 
 # Migrate Everything from below to Capacities
 
