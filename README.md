@@ -49,43 +49,6 @@ Naming Conventions, Best Practices, Troubleshooting and Performance Optimization
 
 - Troubleshooting: SWIA, SWI1 or SWI2_ DIAG | SWUE, SWUS | SWELS, SWEL | Add from Notes | SAP Press Worfklow Page 501 | SWI5 How to Find the Workitem that is pending in a User SAP Inbox
 
-## Devlelopers Extension
-
-### Extension Contracts
-
-Key User Tools
-- Custom Fields, Custom Logic, Custom CDS, Custom Analytical Queries etc.
-
-Extensions (**C0**) 
-- [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/2ce344a782d74d8aab073fa188af5116.html)
-- Key User Extensibility: Can be extend using Key User tools. 
-- Developer Extensibility (Cloud Development): Can be extended using ADT. 
-
-System-Internal Use (**C1**) 
-- [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/3ccb57a1a4d04ee192fdc2a849a89158.html)
-- Key User Extensibility: Can be consumed by custom solution built using Key User tools.
-- Developer Extensibility (Cloud Development): Can be consumed by custom solution built using ADT.
-- **Deprecated**: Objects with C1 contract can be [deprecated](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/f64ebfd241fe4b40b5902b8630d26db6.html) by a successor object. While, consuming C1 contract object customer should mark their objects too as released and later adapt by marking existing [custom object as deprecated](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/a0b0c2282d49442dad541468f68f14e6.html) and replacing it with custom successor object.
-- **Decommissioned**: After 12+ months of deprecation, object will be decommissioned and can no longer be used in production.  
-
-Remote API Use (**C2**) 
-- [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/9c7f9ba825064053874d5870bcb991fb.html)
-- Can be used as Remote API, upgrade modification will not break the existing conumption as an API.
-
-Manage Configuration Content (**C3**) 
-- [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/8b734a3c1f2f416fb077675df46037b5.html)
-- Optional non-key fields might be added later, but existing fields must not be changed or even removed. 
- - Alphanumeric fields might be elongated but will never be shortened.
-
-AMDP (**C4**) 
-- [Affected Objects](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/288854b83f764fc2b7ae8c5f62140cfe.html)
-- Same as C1, AMDP method can be consumed by custom solution but unlike C1 no deprecation or modification will be done.
-
-Impementation using ATC variant:
-- **ABAP_CLOUD_READINESS**: Custom code created with classic extensibility (language version Standard ABAP) uses any CDS views that don't have the status released.
-- _With each software upgrade, customer will automatically receive syntax warnings of occurrences of deprecated CDS views or deprecated CDS view elements in the custom 
-  content that was created with developer extensibility. This prompts customer to rework their content accordingly._
-
 ## Key Users Extension
 
 ## Coding Samples
